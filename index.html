@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://kit.fontawesome.com/ae7e0eee15.js" crossorigin="anonymous"></script>
+    <title>Form Validation</title>
+</head>
+<body>
+    <div class="container">
+        <form action="" id="form">
+            <div class="title">Get Started</div>
+            <!-- /** * ! User Name Input **/ -->
+            <div>
+                <label for="username">User Name</label>
+                <i class="fa-solid fa-user"></i>
+                <input type="text" name="username" id="username">
+                <i class="fa-solid fa-circle-exclamation"></i>
+                <i class="fa-solid fa-circle-check"></i>
+                <div class="error"></div>
+            </div>
+            <!-- User Email Input -->
+            <div>
+                <label for="email">Email</label>
+                <i class="fa-solid fa-envelope"></i>
+                <input type="email" name="email" id="email">
+                <i class="fa-solid fa-circle-exclamation"></i>
+                <i class="fa-solid fa-circle-check"></i>
+                <div class="error"></div>
+            </div>
+            <!-- User Password Input -->
+            <div>
+                <label for="password">Password</label>
+                <i class="fa-solid fa-lock"></i>
+                <input type="password" name="password" id="password">
+                <i class="fa-solid fa-circle-exclamation"></i>
+                <i class="fa-solid fa-circle-check"></i>
+                <div class="error"></div>
+            </div>
+            <button type="submit" id="submit">Submit</button>
+        </form>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
